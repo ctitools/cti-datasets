@@ -1,0 +1,205 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "string"
+      },
+      "updated_at": {
+        "type": "string"
+      },
+      "deleted_at": {},
+      "sha1_hash": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "authors": {
+        "type": "string"
+      },
+      "file_creation_date": {
+        "type": "string"
+      },
+      "file_modification_date": {
+        "type": "string"
+      },
+      "file_size": {
+        "type": "number"
+      },
+      "plain_text": {
+        "type": "string"
+      },
+      "language": {
+        "type": "string"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            },
+            "deleted_at": {},
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "reports": {}
+          },
+          "required": [
+            "id",
+            "created_at",
+            "updated_at",
+            "deleted_at",
+            "name",
+            "url",
+            "description",
+            "reports"
+          ]
+        }
+      },
+      "references": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "report_names": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "threat_actors": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            },
+            "deleted_at": {},
+            "main_name": {
+              "type": "string"
+            },
+            "aliases": {
+              "type": [
+                "array",
+                "null"
+              ],
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_name": {
+              "type": "string"
+            },
+            "tools": {
+              "type": [
+                "array",
+                "null"
+              ],
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_id": {
+              "type": "string"
+            },
+            "reports": {}
+          },
+          "required": [
+            "id",
+            "created_at",
+            "updated_at",
+            "deleted_at",
+            "main_name",
+            "aliases",
+            "source_name",
+            "source_id",
+            "reports"
+          ]
+        }
+      },
+      "ts_created_at": {
+        "type": "number"
+      },
+      "ts_updated_at": {
+        "type": "number"
+      },
+      "ts_creation_date": {
+        "type": "number"
+      },
+      "ts_modification_date": {
+        "type": "number"
+      },
+      "files": {
+        "type": "object",
+        "properties": {
+          "pdf": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "img": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "pdf",
+          "text",
+          "img"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "sha1_hash",
+      "title",
+      "authors",
+      "file_creation_date",
+      "file_modification_date",
+      "file_size",
+      "plain_text",
+      "language",
+      "sources",
+      "references",
+      "report_names",
+      "threat_actors",
+      "ts_created_at",
+      "ts_updated_at",
+      "ts_creation_date",
+      "ts_modification_date",
+      "files"
+    ]
+  }
+}

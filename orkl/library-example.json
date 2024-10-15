@@ -1,0 +1,85 @@
+[
+    {
+        "id": "3881994e-a1c6-465a-9c59-02655a6b8ee6",
+        "created_at": "2023-01-12T15:05:47.072511Z",
+        "updated_at": "2024-05-26T02:03:17.036913Z",
+        "deleted_at": null,
+        "sha1_hash": "4efefd7be8506629c359fdd08ee0dc6ffb831607",
+        "title": "2018-07-08 - Hussarini – Targeted Cyber Attack in the Philippines",
+        "authors": "",
+        "file_creation_date": "2022-05-28T15:39:06Z",
+        "file_modification_date": "2022-05-28T15:39:06Z",
+        "file_size": 127979,
+        "plain_text": "Hussarini – Targeted Cyber Attack in the Philippines\nfortinet.com/blog/threat-research/hussarini---targeted-cyber-attack-in-the-philippines.html\nJuly 8, 2018\n\nTwo weeks ago, FortiGuard Labs spotted a malicious document with the politically themed\nfile name “Draft PH-US Dialogue on Cyber Security.doc”. This document takes advantage of\nthe vulnerability CVE-2017-11882. Upon successful exploitation, it drops a malware in the\nvictim’s %temp% directory.\nOur analysis of this malware shows that it belongs to Hussarini, also known as Sarhust, a\nbackdoor family that has been used actively i...",
+        "language": "EN",
+        "sources": [
+            {
+                "id": "05d7b179-7656-44d8-a74c-9ab34d3df3a2",
+                "created_at": "2023-01-12T14:38:44.599904Z",
+                "updated_at": "2023-01-12T14:38:44.599904Z",
+                "deleted_at": null,
+                "name": "VXUG",
+                "url": "https://www.vx-underground.org",
+                "description": "vx-underground Papers",
+                "reports": null
+            }
+        ],
+        "references": [
+            "https://papers.vx-underground.org/papers/Malware Defense/Malware Analysis 2018/2018-07-08 - Hussarini – Targeted Cyber Attack in the Philippines.pdf"
+        ],
+        "report_names": [
+            "2018-07-08 - Hussarini – Targeted Cyber Attack in the Philippines.pdf"
+        ],
+        "threat_actors": [
+            {
+                "id": "fe3d8dee-3bee-42e6-8f16-b6628b6189ae",
+                "created_at": "2023-01-06T13:46:39.039285Z",
+                "updated_at": "2024-05-26T02:00:03.919908Z",
+                "deleted_at": null,
+                "main_name": "SWEED",
+                "aliases": [],
+                "source_name": "MISPGALAXY:SWEED",
+                "tools": [],
+                "source_id": "MISPGALAXY",
+                "reports": null
+            },
+            {
+                "id": "f2c53785-fb8b-460d-ba73-7fbfba36f0f5",
+                "created_at": "2022-10-25T16:07:24.247949Z",
+                "updated_at": "2024-05-26T02:02:12.549813Z",
+                "deleted_at": null,
+                "main_name": "Sweed",
+                "aliases": [],
+                "source_name": "ETDA:Sweed",
+                "tools": [
+                    "AgenTesla",
+                    "Agent Tesla",
+                    "AgentTesla",
+                    "ForeIT",
+                    "Formbook",
+                    "Loki",
+                    "Loki.Rat",
+                    "LokiBot",
+                    "LokiPWS",
+                    "Negasteal",
+                    "Origin Logger",
+                    "RDP",
+                    "Remote Desktop Protocol",
+                    "ZPAQ",
+                    "win.xloader"
+                ],
+                "source_id": "ETDA",
+                "reports": null
+            }
+        ],
+        "ts_created_at": 1673535947,
+        "ts_updated_at": 1716688997,
+        "ts_creation_date": 1653752346,
+        "ts_modification_date": 1653752346,
+        "files": {
+            "pdf": "https://pub-7cb8ac806c1b4c4383e585c474a24719.r2.dev/4efefd7be8506629c359fdd08ee0dc6ffb831607.pdf",
+            "text": "https://pub-7cb8ac806c1b4c4383e585c474a24719.r2.dev/4efefd7be8506629c359fdd08ee0dc6ffb831607.txt",
+            "img": "https://pub-7cb8ac806c1b4c4383e585c474a24719.r2.dev/4efefd7be8506629c359fdd08ee0dc6ffb831607.jpg"
+        }
+    }
+]
