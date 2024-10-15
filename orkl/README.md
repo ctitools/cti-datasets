@@ -37,7 +37,7 @@ Then you will have 3 files:
 
 # Profit
 
-Take a look at the library.schema.json and/or the postgreSQL database (or db.sql for the SQL schema).
+Take a look at the `library.schema.json` and/or the postgreSQL database (or `db.sql` for the SQL schema).
 You can now SELECT texts based on language, translate them, GROUP by tools, threat actors (TAs), cluster by TA aliases, etc. etc...
 
 
